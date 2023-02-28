@@ -2,6 +2,7 @@ public class MyClass {
     public static void main(String args[]){
         int numeroInicial = 5;
         int numeroFinal=14;
+        int numeroPar= numeroInicial% 2 ==0;
         while(numeroInicial<=numeroFinal){
         if(numeroInicial % 2 == 0)
         System.out.println(numeroInicial);
